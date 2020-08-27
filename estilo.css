@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: rgb(161, 159, 159);
+}
+header{
+    height: 40px;    
+    padding: 20px 0 0 50px;    
+    font: bold 20px Arial;
+    color: rgba(255, 255, 255, 0.904);
+    background-color: rgb(124, 119, 119);
+}
+#espacamento{
+    padding-left: 900px;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+}
+button{
+    display: block;
+    width: 180px;
+    height: 100px;
+    margin: 50px auto;    
+    font: normal 30px Arial;
+    background-color: rgb(225, 243, 239);
+}
+#introducao{
+    text-align: center;
+    margin: 50px 0;
+}
+canvas{    
+    border: solid 1px black;   
+    display: none;
+    margin: 5px auto; 
+}
+div#pontuacao{
+    text-align: center;
+    font: bold 30px Arial;
+}
+div#tempo{
+    text-align: center;
+    font: bold 30px arial;
+}
+#tempoTotal{    
+    text-align: center;
+    font: bold 30px Arial;
+}

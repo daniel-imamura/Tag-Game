@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu jogo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        Tag Game
+        <a href="regras/index.html" id="espacamento" target="_blank">Regras</a>
+        | by Daniel
+    </header>
+
+    <h1 id="introducao">Antes de começar o jogo leia as regras!</h1>
+
+    <div id="jogo">
+        <canvas id="meuCanvas" width="512" height="480"></canvas>
+        <button id="modoFacil" onclick="start()">Easy</button>
+        <button id="modoDificil" onclick="startDificil()">Hard</button>
+    </div>
+
+    <div id="pontuacao"></div>
+    <div id="tempo"></div>
+    
+    <div id="tempoTotal">
+        <span id="tempotxt"></span>
+        <span id="hora"></span>
+        <span id="minuto"></span>
+        <span id="segundo"></span>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
